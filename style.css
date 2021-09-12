@@ -1,0 +1,69 @@
+body {
+    margin:0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+.row{
+    overflow: hidden;
+    margin: 10px 0;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td{
+    border: 1px solid #cccccc;
+    padding: 5px;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+}
+.modal-header{
+    margin-bottom: 1px;
+}
+.modal-content{
+    max-width: 50%;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.alert{
+padding: 10px;
+border-radius: 5px;
+color: white;
+}
+
+.alert button{
+    float: right;
+}
+
+.success{
+    background-color: rgb(107, 107, 197);
+}
+
+.error{
+    background-color: rgb(212, 82, 82);
+}
